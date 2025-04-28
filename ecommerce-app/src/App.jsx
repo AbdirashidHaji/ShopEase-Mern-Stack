@@ -4,6 +4,7 @@ import { CartProvider } from './context/CartContext';
 import { ProductProvider } from './context/ProductContext';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import AdminLayout from './components/admin/AdminLayout';
 import Home from './pages/Home';
 import ProductDetail from './pages/ProductDetail';
 import CartPage from './pages/CartPage';
@@ -12,7 +13,7 @@ import Services from './pages/Services';
 import ContactUs from './pages/ContactUs';
 import Products from './pages/Products';
 import UploadProduct from './pages/UploadProduct';
-
+import Dashboard from './pages/admin/Dashboard';
 
 function App() {
   return (
@@ -33,6 +34,8 @@ function App() {
                 <Route path="/contact-us" element={<ContactUs />} />
                 <Route path="/products" element={<Products />} />
                 <Route path="/upload-product" element={<UploadProduct />} />
+                <Route path="/admin/dashboard" element={<Dashboard />} />
+                <Route path="/admin" element={<AdminLayout />}/>
               </Routes>
             </main>
 

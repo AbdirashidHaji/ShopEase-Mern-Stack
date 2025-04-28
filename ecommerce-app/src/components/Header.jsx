@@ -25,6 +25,8 @@ const Header = () => {
           <Link to="/upload-product" className="hover:underline">Upload Product</Link>
           <Link to="/about-us" className="hover:underline">About</Link>
           <Link to="/contact-us" className="hover:underline">Contact</Link>
+          <Link to="/admin/dashboard" className="hover:underline">Dashboard</Link>
+          <Link to="/admin" className="hover:underline">Admin</Link>
           <Link to="/services" className='hover:underline'>Services</Link>
         </nav>
         
