@@ -21,7 +21,8 @@ const Header = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
           <Link to="/" className="hover:underline">Home</Link>
-          <Link to="/products/:id" className="hover:underline">Products</Link>
+          <Link to="/products" className="hover:underline">Products</Link>
+          <Link to="/upload-product" className="hover:underline">Upload Product</Link>
           <Link to="/about-us" className="hover:underline">About</Link>
           <Link to="/contact-us" className="hover:underline">Contact</Link>
           <Link to="/services" className='hover:underline'>Services</Link>
@@ -71,12 +72,19 @@ const Header = () => {
             Home
           </Link>
           <Link 
-            to="/products/:id" 
-            className="py-2 hover:underline"
-            onClick={() => setIsMobileMenuOpen(false)}
-          >
-            Products
-          </Link>
+  to="/products" 
+  className="py-2 hover:underline"
+  onClick={() => setIsMobileMenuOpen(false)}
+>
+  Products
+</Link>
+<Link 
+  to="/upload-product" 
+  className="py-2 hover:underline"
+  onClick={() => setIsMobileMenuOpen(false)}
+>
+  Upload Product
+</Link>
           <Link 
             to="/about-us" 
             className="py-2 hover:underline"
