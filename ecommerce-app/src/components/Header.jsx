@@ -74,19 +74,19 @@ const Header = () => {
             Home
           </Link>
           <Link 
-  to="/products" 
-  className="py-2 hover:underline"
-  onClick={() => setIsMobileMenuOpen(false)}
->
-  Products
-</Link>
-<Link 
-  to="/upload-product" 
-  className="py-2 hover:underline"
-  onClick={() => setIsMobileMenuOpen(false)}
->
-  Upload Product
-</Link>
+             to="/products" 
+             className="py-2 hover:underline"
+              onClick={() => setIsMobileMenuOpen(false)}
+          >
+         Products
+        </Link>
+    <Link 
+      to="/upload-product" 
+     className="py-2 hover:underline"
+      onClick={() => setIsMobileMenuOpen(false)}
+      >
+      Upload Product
+       </Link>
           <Link 
             to="/about-us" 
             className="py-2 hover:underline"
@@ -107,6 +107,20 @@ const Header = () => {
             onClick={() => setIsMobileMenuOpen(false)}
           >
             Services
+          </Link>
+          <Link 
+            to="/admin/dashboard" 
+            className="py-2 hover:underline"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            Dashboard
+          </Link>
+          <Link 
+            to="/admin" 
+            className="py-2 hover:underline"
+            onClick={() => setIsMobileMenuOpen(false)}
+          > 
+            Admin
           </Link>
         </nav>
       </div>
