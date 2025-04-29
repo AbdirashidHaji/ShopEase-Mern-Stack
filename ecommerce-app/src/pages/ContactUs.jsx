@@ -59,7 +59,7 @@ const ContactUs = () => {
                 </svg>
                 <div>
                   <h3 className="font-medium text-gray-800 dark:text-white">Phone</h3>
-                  <p className="text-gray-600 dark:text-gray-300">+1 (123) 456-7890</p>
+                  <p className="text-gray-600 dark:text-gray-300">+2547 4596-7890</p>
                 </div>
               </div>
               
